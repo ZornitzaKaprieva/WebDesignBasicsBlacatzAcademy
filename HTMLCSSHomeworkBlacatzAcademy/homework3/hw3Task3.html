@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Homework3Task3</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/styleForm.css">
+    </head>
+    <body>
+         <!--LEFT MENU-->
+         <div class="left-menu">
+            <div class="logo">
+                <a href="./index.html">
+                    <img id="logo-img" src="./images/home-page-icons/logo-icon.png" alt="logo">
+                </a>
+            </div>
+            <div class="task-menu">
+                <ul class="menu-t">
+                    <li class="menu-title">
+                        <span >
+                            <h3 class="sec-col">Homework3</h3>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="./index.html">
+                            <img src="./images/home-page-icons/home-icon.png" alt="home">
+                            <span>Home</span>
+                        </a>
+                        <li>
+                            <a href="./hw3webdesign-new.pdf" target="_blank">
+                                <img src="./images/home-page-icons/pdf-icon.png" alt="home">
+                                <span>PDF File</span>
+                            </a>
+                    </li>
+                    <li class="menu-title">
+                        <span>
+                            <h3 class="sec-col">Tasks</h3>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="./hw3Task1.html">
+                            <img src="./images/home-page-icons/create-table-icon.png" alt="">
+                            <span>Create a table</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./hw3Task2.html">
+                            <img src="./images/home-page-icons/add-styles-icon.png" alt="">
+                            <span>Add styles</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./hw3Task3.html">
+                            <img src="./images/home-page-icons/reg-form.png" alt="">
+                            <span>Create a registration form</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./hw3Task4.html">
+                            <img src="./images/home-page-icons/create-page-icon.png" alt="">
+                            <span>Create a page</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!--LEFT MENU END-->
+
+        <!-- MAIN PAGE -->
+        <div class="main-page">
+         <!-- TOP MENU -->
+            <div class="top-menu">
+
+                <!-- TOP MENU LEFT-->
+                <div class="tm-left">
+                    <div class="serch-box">
+                        <img src="./images/home-page-icons/search-icon.png" alt="search">
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+                <!-- TOP MENU LEFT END-->
+
+                <!-- TOP MENU RIGHT-->
+                <div class="tm-right">
+                    <div class="task-right">
+                        <button>
+                            <a href="./index.html">Home</a>
+                        </button>   
+                        <button>
+                            <a href="./hw3Task1.html">Task1</a>
+                        </button> 
+                        <button>
+                            <a href="./hw3Task2.html">Task2</a> 
+                        </button>                              
+                        <button>
+                            <a href="./hw3Task3.html">Task3</a>
+                        </button>  
+                        <button>
+                            <a href="./hw3Task4.html">Task4</a>
+                        </button>
+                    </div>
+                </div>
+                <!-- TOP MENU RIGHT END-->
+
+            </div>
+            <!-- TOP MENU END -->
+
+
+            <!--CONTENT-->
+            <div class="clear-fix"></div>
+            <div class="content">
+                <!--PROBLEM-->
+                <div class="problem">
+                    <a href="./hw3webdesign-new.pdf" target="_blank">
+                        <h2>Create the registration form shown in the PDF file</h2>
+                    </a> 
+                </div>
+                <!--PROBLEM END-->
+
+                        <!--SOLUTION-->
+                        <div class="solution">
+                            <div class="r-form">
+                                <h3><strong>Форма за регистрация</strong></h3>
+                            </div>
+
+                            <!--FORM-->
+                            <form>
+                                <table>
+                                     <tr> 
+                                        <td>
+                                            <label class="label" for="name">Име</label>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="name" placeholder="Въведи име">
+                                        </td>
+                                    </tr>
+                                    <tr> 
+                                        <td>
+                                            <label class="label" for="sec-name">Презиме</label>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="sec-name"  placeholder="Въведи презиме">
+                                        </td>
+                                    </tr>
+                                    <tr> 
+                                        <td>
+                                            <label class="label" for="last-name">Фамилия</label>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="last-name"  placeholder="Въведи фамилия">
+                                        </td>
+                                    </tr>
+                                    <tr> 
+                                        <td>
+                                            <label class="label" for="email">Email</label>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="email"  placeholder="Въведи email">
+                                        </td>
+                                    </tr>
+                                    <tr> 
+                                        <td>
+                                            <label class="label" for="tel">Телефон</label>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="tel" placeholder="Въведи телефон">
+                                        </td>
+                                    </tr>
+                                    <tr> 
+                                        <td class="label">
+                                           Пол
+                                        </td>
+                                        <td>
+                                            <input 
+                                            type="radio" 
+                                            id="male"
+                                            name="sex"
+                                            /> 
+                                            <label for="male">Мъж</label>
+                                        
+                                            <input 
+                                            type="radio" 
+                                            id="female"
+                                            name="sex"
+                                            /> 
+                                            <label for="female">Жена</label>
+                                        </td>
+                                    </tr>
+                                    <tr> 
+                                        <td class="label">
+                                            Приемам <br> условията
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" id="gdpr">
+                                            <label for="gdpr">ГДПР</label>
+        
+                                            <input type="checkbox" id="com">
+                                            <label for="com">Общите условия</label>
+                                        </td>
+                                    </tr>
+                                    <tr> 
+                                        <td>
+                                            <label class="label" for="age">Години</label>
+                                        </td>
+                                        <td>
+                                            <select name="" id="age">
+                                                <option value="">18</option> 
+                                                <option value="">19</option> 
+                                                <option value="">20</option> 
+                                                <option value="">21</option> 
+                                                <option value="">22</option> 
+                                                <option value="">23</option> 
+                                                <option value="">24</option> 
+                                                <option value="">25</option> 
+                                                <option value="">26</option> 
+                                                <option value="">27</option> 
+                                                <option value="">28</option> 
+                                                <option value="">29</option> 
+                                                <option value="">30</option> 
+                                                <option value="">31</option> 
+                                                <option value="">32</option> 
+                                                <option value="">33</option> 
+                                                <option value="">34</option> 
+                                                <option value="">35</option> 
+                                                <option value="">36</option> 
+                                                <option value="">37</option> 
+                                                <option value="">38</option> 
+                                                <option value="">39</option> 
+                                                <option value="">40</option> 
+                                            </select>
+                                        </td>
+                                    </tr> 
+                                </table>
+                                <button class="reg-button">Регистрация</button>
+                            </form>                
+                            <!--FORM END-->
+                        </div>
+                        <!--SOLUTION END-->
+            </div>
+            <!-- CONTENT END -->
+        </div>
+        <!-- MAIN PAGE END-->
+    </body>
+    <!--FOOTER-->
+    <footer class="clear-fix">
+        <div>
+            <span>Homework3</span>
+            <span>Zornitza Kaprieva&copy;</span>
+        </div>
+    </footer>
+    <!--FOOTER END-->
+</html>

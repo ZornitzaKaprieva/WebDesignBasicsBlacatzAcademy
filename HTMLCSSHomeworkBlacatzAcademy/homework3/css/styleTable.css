@@ -1,0 +1,17 @@
+
+table{
+    border-collapse: collapse;
+}
+
+table td, table tr{
+    border: 1.5px solid black ;
+}
+
+.second-table{
+        width: 600px;
+}
+
+.second-table tr td, .third-table tr td{
+    width: 150px;
+}
+

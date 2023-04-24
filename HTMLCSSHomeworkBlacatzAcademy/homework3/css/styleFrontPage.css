@@ -1,0 +1,311 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family:'Segoe UI';
+}
+
+h1, p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(245, 222, 179);
+}
+
+.clear-fix{
+    clear: both;
+}
+
+/* MAIN PAGE */
+.main-page{
+    width: 75%;
+    min-height: 1000px;
+    /* background-color: olive; */
+    margin: 0 auto;
+}
+/* MAIN PAGE END*/
+
+/*NAV*/
+.nav{
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    list-style-type: none;    
+    margin-bottom: 0; 
+}
+
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    text-decoration: none;
+    color: #663366;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.nav li a:hover{
+    opacity: 60%;
+    /* font-size: large; */
+}
+
+.nav li:hover .nav-dropdown{
+    display: block; /* +.nav-dropdown*/
+ }
+
+/* NAV END*/
+
+/* NAV DROPDOWN*/
+.nav-dropdown{
+    position: absolute;
+    text-align: center;
+    background-color:  rgb(77, 75, 75, 0.8);
+    border-radius: 5px;
+    padding: 6px 15px;
+    margin-left: 35px;
+    display: none; /*+.nav li:hover .nav-dropdown*/
+}
+
+.nav-dropdown li{
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 7px;   
+}
+
+.nav-dropdown li a{
+    /* font-style: italic; */
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: wheat;
+}
+/* NAV DROPDOWN END*/
+
+/* FIRST SECTION */
+.first-sec{
+    height: 300px;
+    background-image: url(../images/task4-img/purple-sky-40percent.jpg);
+    background-size: cover;     
+    background-position: center center; 
+    padding-top: 150px;
+}
+
+.first-sec h1{
+    font-size: 45px;
+    letter-spacing: 4px;
+    padding-bottom: 15px;
+}
+
+/* FIRST SECTION END */
+
+/* BULLETIN */
+.bulletin{
+    /* width: 90%; */
+    height: 100px;
+    box-shadow: 0px 1px 0px 0px rgb(191, 191, 191, 0.7);
+    margin: 0 auto; 
+}
+/* BULLETIN END */
+
+/* BULLETIN LEFT */
+.bul-left{
+    width: 30%;
+    text-align: left;
+    float: left;   
+}
+
+.bul-left h3{
+    padding-top: 15px;
+    padding-left: 57px;
+    letter-spacing: 0.3px;
+    vertical-align: middle;
+}
+/* BULLETIN LEFT END */
+
+
+/* BULLETIN RIGHT */
+.bul-right{
+    width: 70%;
+    text-align: right;
+    padding-top: 40px;
+    padding-left: 285px;   
+}
+
+.bul-right input{
+    width: 300px;
+    padding: 3px;
+    margin-right: 15px;    
+    border-radius: 5px;
+    border: 2px solid silver;
+    vertical-align: middle;
+}
+
+.bul-right button{
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: black;
+    color: wheat;
+    padding: 5px 25px;
+    border: unset;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+/* BULLETIN RIGHT END */
+
+
+
+/* MAIN CONTAINER */
+.main-container{
+    width: 90%;
+    margin: 0 auto;
+}
+/* MAIN CONTAINER END */
+
+/* IMG SECTION */
+.img-sec{
+    height: 400px;
+    margin-top: 40px;
+}
+
+.img-sec a{
+    color:  rgb(245, 222, 179);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px solid #0a090a;
+    text-align: center;
+}
+/* IMG SECTION END */
+
+/* IMG SECTION LEFT */
+.img-sec-left{
+    width: 58%;
+    height: 400px;
+    float: left;  
+    background-image: url(../images/task4-img/spring-twig-40percent.jpg);
+    background-size: cover;     
+    background-position: center center; 
+    border-radius: 10px;
+}
+
+.img-sec .img-sec-left h3{
+    margin-top: 30%; 
+}
+/* IMG SECTION LEFT END */
+
+/* IMG SECTION RIGHT */
+ .img-sec-right {
+    width: 38%;
+    float: right;
+    height: 400px;
+    margin: 0px;
+    padding: 0%;  
+}
+
+.img-1-right{
+    background-image: url(../images/task4-img/blue-flowers-40percent.jpg);
+    width: 100%;
+    height: 185px;
+    background-size: cover;     
+    background-position: center center; 
+    float: right;
+    border-radius: 10px;
+    margin: 1px 0px 15px 0px;
+}
+
+.img-2-right{
+    background-image: url(../images/task4-img/sunset-orange-40percent.jpg);
+    width: 100%;
+    height: 185px;
+    background-size: cover;     
+    background-position: center center; 
+    float: right;
+    border-radius: 10px;
+    margin: 15px 0px 1px 0px;
+}
+
+.img-sec-left:hover, .img-1-right:hover, .img-2-right:hover{
+    opacity: 80%;
+}
+
+.img-sec .img-sec-right h4{
+    margin-top: 20%;
+}
+/* IMG SECTION RIGHT END */
+
+/* MOTIVATION */
+.motivation{
+    height: 120px;
+    margin-top: 40px;
+}
+
+.motivation a:hover{
+    opacity: 80%;
+}
+
+.motiv-left{
+    margin-bottom: 20px;;
+    width: 20%;
+    float: left;  
+}
+
+.motiv-left img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.motiv-right{
+    float: left;
+    margin-left: 20px;   
+}
+
+.motiv-right h4{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.motiv-right .sent{
+    color: black;
+    font-size: 15px;
+    text-align: left;
+}
+
+.motiv-right .author{
+    color: black;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 5px;
+}
+/* MOTIVATION END */
+
+/* LOAD MORE */
+.load-more button{
+    margin: 20px 45%;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+}
+
+.load-more button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.load-more button:hover{
+    opacity: 70%;
+}
+
+/* LOAD MORE END */
+

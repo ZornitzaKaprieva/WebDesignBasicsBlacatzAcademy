@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    color: rgb(77, 75, 75);
+    /* background: rgb(242, 242, 242); */
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;              
+}
+
+.sec-col{
+    color: black;
+}
+
+/* LEFT MENU */
+.left-menu{
+    min-width: 300px;
+    background-color:white;
+    min-height: 100%;
+    position: fixed;
+    box-shadow: 1px 0 0 0 rgb(191, 191, 191, 0.5);
+}
+
+.logo img{
+    height: 85px;
+    display: block;
+    margin: 0 auto;
+}
+
+.left-menu ul{
+    list-style-type: none; 
+}
+
+.left-menu ul li{
+    height: 40px;
+    width: 93%;
+    padding-bottom: 40px;    
+    padding-top: 15px;            
+}
+
+
+.left-menu ul li a{
+    text-decoration-line: none;
+    width: 100%;
+    display: block;
+    padding: 15px 1px 15px 5px;
+    font-size: 16px;
+}
+
+.left-menu ul li a:hover{   
+   background-color: #cc99cc;
+   opacity: 0.9;
+   vertical-align: bottom;
+   cursor: pointer;
+}
+
+.left-menu ul li a span:hover {
+    color: #ffff66 !important; 
+    cursor: pointer;
+}
+
+.left-menu ul li a img{
+    width: 29px;
+    vertical-align: bottom;
+    padding-right: 5px;
+}
+
+.left-menu ul li h3{
+    padding-top: 5px;
+    padding-left: 30px;   
+    font-size: 22px;  
+    text-transform: capitalize;    
+}     
+
+/* LEFT MENU END*/
+
+/* MAIN PAGE */
+.main-page{
+    /* background-color: red; */
+    /* width: 100%; */
+    min-height: 94%;
+    margin-left: 300px;
+}
+/* MAIN PAGE END*/
+
+/* TOP MENU */
+.top-menu{
+    background: #cc99cc;
+    height: 80px;
+}
+/* TOP MENU END*/
+
+/*TOP MENU LEFT*/
+
+.tm-left{
+    width: 50%;
+    float: left;
+}
+
+.serch-box{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(255, 255, 255, 0.8);
+    margin-left: 50px;
+    margin-top:20px;
+    border-radius: 35px;
+    padding: 1px 15px;
+}
+
+.serch-box img{
+    height: 30px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.serch-box input {
+    background: unset;
+    border: unset;
+    font-size: 17px;
+    vertical-align: middle;
+    height: 38px;
+    width: 180px;
+}
+
+input:focus{
+    outline: none; /*махаме бордерите при клик на сърча*/
+}
+
+/*TOP MENU LEFT END*/
+
+/*TOP MENU RIGHT*/
+.tm-right{
+    width: 50%;
+    float: right;
+}
+
+.task-right{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.tm-right button{
+    border-radius: 35px;  
+    width: 60px;
+    height: 25px;
+    border: unset;
+    background-color: rgb(255, 255, 255, 0.8);
+    margin-right: 6px;
+    
+}
+
+.tm-right button:hover{
+    background-color: rgb(255, 255, 102, 0.8); 
+    cursor: pointer;     
+}
+
+.tm-right button a{
+    text-decoration-line: none; 
+    vertical-align: middle;
+}
+
+.tm-right button a:hover{
+    color: #cc99cc;
+
+}
+/*TOP MENU RIGHT END*/
+
+/* CONTENT */
+.clear-fix{
+    clear: both;
+}
+
+.content{
+    /* background-color:rgb(204, 153, 204, 0.2); */
+    width: 100%;
+    min-height: 100%;
+    float: left;
+    padding: 15px 12px 15px 40px; 
+}
+
+.content a{
+    text-decoration: none;
+}
+
+
+.content h1{
+ margin-left: 200px;
+ margin-top: 90px;
+ margin-bottom: 0;
+ font-size: 50px;
+}
+
+.content p{
+ margin-left: 80px;
+ margin-right: 80px;
+ font-size: 20px;
+ text-align: center;
+}
+
+.content h1:hover, .content p:hover{
+    color: #cc99cc;
+}
+
+.c-task{
+    background-color:rgb(204, 153, 204,0.3);
+    width: 49%;
+    height: 285px;
+    float: left;
+    border-radius: 5px;
+}
+
+.c-task:hover{
+    background-color: rgb(255, 255, 102, 0.3);
+    color: #cc99cc;
+}
+
+.c-t2{         
+    margin-left: 10px;
+}
+
+.c-t3{          
+    margin-top: 10px;
+}
+
+.c-t4{ 
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/*PROBLEM*/
+.problem{
+    width:60%;
+    min-height: 50px;
+    /* background-color: #cc99cc; */
+    border-radius: 35px;
+    /* margin: auto 15px; */
+    text-shadow: 0.1px 0px 0.1px #cc99cc;
+    box-shadow: 0px 0px 2px black;
+}
+
+.problem h2{
+    padding-top: 12px;
+    font-size: 20px;
+    text-align: center;
+    color: #cc99cc
+ 
+}
+   .problem h2:hover{
+       color: rgb(255, 255, 102, 0.8);
+   }
+/*PROBLEM END*/
+
+/*SOLUTION*/
+.solution{
+    margin:20px 150px 20px 20px;
+}
+/*SOLUTION END*/
+
+/* CONTENT END */
+
+/* FOOTER */
+footer{
+    background: #cc99cc;
+    height: 45px;
+    color: white;
+    text-align: left;
+    font-size: small;
+}
+
+footer span{
+    color: rgb(255, 255, 102, 0.8);
+    margin-right: 85px;
+    padding-top: 4px;
+    vertical-align: middle;
+    margin-left: 1320px;
+}
+/* FOOTER END */

@@ -1,0 +1,152 @@
+
+.clear-fix{
+    clear: both;
+}
+
+/* BOX */
+.box{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+/* BOX END*/
+
+/* BOX HEADER */
+.box-header{
+    height: 70px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #333333;
+}
+ /* BOX HEADER END */
+
+/* BOX HEADER LEFT */
+.box-header-left{
+    width: 25%;
+    float: left;
+}
+
+/* P10 */
+.box-header-left .p-10 img{
+    width: 70%;
+    margin: 10px;
+}
+/* P10 END */
+
+/* BOX HEADER LEFT END */
+
+/* BOX HEADER RIGHT */
+.box-header-right{
+    width: 75%;
+    float: right;
+}
+/* P10 */
+
+.box-header-right .p-10 {
+    margin-top: 10px;
+}
+
+/* P10 END */
+
+.box-header-right .p-10 .username{
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.box-header-right .p-10 .status{
+    color: #66cc00;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+                                    
+ /* BOX HEADER RIGHT END */
+
+ /* BOX BODY */
+.box-body{
+    height: 100px;
+}
+
+/* THEY LEFT */
+.they-left{
+    width: 70px;
+    float: left;
+}
+
+.they-left img{
+    width: 60%;
+    margin: 10px;
+}
+/* THEY LEFT END */
+
+/* THEY RIGHT */
+.they-right{
+    float: right;
+    width: 230px;
+}
+
+.they-right .they-msg{
+    width: 80%;
+    background-color: #333333;
+    color: white;
+    font-size: 11px;
+    font-family: 'Times New Roman';
+    padding: 10px 5px;
+    border-radius: 15px;
+    margin: 10px 0px 0px 5px;
+}
+
+.they-right .time{
+    font-size: 11px;
+    padding: 2px 15px;
+    color: gray;
+}
+
+.they .they-msg:hover{
+    color: white;
+}
+/* THEY RIGHT END */
+
+/* US */
+.us .us-msg{
+    background-color: #00cc66;
+    width: 55%;
+    color: white;
+    font-size: 11px;
+    font-family: 'Times New Roman';
+    padding: 10px 5px;
+    border-radius: 15px;
+    margin: 0px 10px 0px 0px;
+    float: right;
+}
+
+.us .us-msg:hover{
+    color: white;
+}
+/* US END */
+
+ /* BOX BODY END */
+
+/* FOOTER */
+.box-footer{
+    position: absolute;
+    bottom: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #333333;
+}
+
+.box-footer .message-field{
+    border: 0;
+    padding: 25px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+}
+
+/* FOOTER END */
+                
+/* BOX END */
+
