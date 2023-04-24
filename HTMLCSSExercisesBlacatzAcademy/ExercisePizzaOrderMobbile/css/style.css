@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{ /*да се разпъне както трябва*/
+    padding: 0;
+    margin:0;
+    font-family: 'Open Sans';
+}
+
+p, h1, h2, h3, h4, h5, h6{/*нулираме дифолтните стойности на елентите, така че да не ни оставят бели поета от техните паддинги и марджини*/
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER*/
+.header{
+    width: 100%;
+    height: 75px;
+    background: #e41040;
+    position: fixed;
+    top: 0;
+}
+
+.h-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.h-right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: right;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    background: url('../pizza-pic/logo.png'); /*с ../, защото изображенирто се намира в друга директория*/
+    background-size: cover; /*за да се изреже според зададения размер*/
+    background-position: center center; /*за да се позиционира централно*/    
+}
+
+.h-right button{
+    font-size: 30px; /*така регулираме големината. понеже е вектор, няма да имаме проблем с разтягането*/
+    /* background-color: #e41040; */
+    background: unset;
+    color: white;
+    border: unset;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+/* NAV (menu)*/
+.nav{
+    /* background: blueviolet;
+    height: 300px; */
+    width: 100%;
+    position: absolute; /*за да не мърда*/
+    top: 75px; /*за да не се скрива хедъра*/
+    display: none; /*за да се скрива и показва менюто следва да го променяме  на display:none;/display:block; с JavaScript*/
+}
+
+.nav a{
+    text-decoration: none;
+    display: block; /*за да заеме фона цялото пространство. Не само хрефа, a span и i също ще се влият от стойностоте тук*/
+    background-color: #e41040;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    /*височината се определя сама, според бр на елементите, които сложим*/
+}
+
+.nav a i{
+    float: right;
+    padding-right: 5px;
+}
+/* NAV END*/
+/* HEADER END */
+
+/* TOP SECTION*/
+.top-section{
+    background: url('../pizza-pic/home-bg.jpg');
+    width: 100%;
+    min-height: 500px; /*за да не гръмне при други мобилни устройства*/
+    background-size: cover; /*за да се вмъкне картинката в полето, без да се изрязва */
+    background-position: center center; /*за да се центрира автоматично*/
+    text-align: center;
+    padding: 50px; /*помага на margin-top: 30px; в .top-section h1 да не измести елемента*/
+    /* box-sizing: border-box; */ /*Сложено е най-горе. Без него, картинката от 500px ше стане 600px, заради падинга.*/
+    margin-top: 75px; /*Добавихмe го в последствие, след като фикснахме менюто да е винаги най-отгоре*/
+}
+
+.top-section h1{
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px black; /*настройваме сянката*/
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.top-section button, #order-form button{ /*бутоните в 2те секции са еднакви. за да стилираме бутона въвъ 2рата или копи-пейст, или дописваме тук съ запетайки*/
+    background-color: #e41040;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px 18px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+/* TOP SECTION END */
+
+/* BEST OFFERS SECTION */
+.best-offers-section{
+    padding: 20px; /*за да не се забие секцията на поръчката с листа с пиците*/
+}
+
+.best-offers-section h2{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px; /*сега няма да се забележи, но ще остане бяла линия, ако променим фона на .best-offers-section*/
+}
+
+.bo-box{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.bo-box img{
+    width: 65%;
+}
+
+.bo-box h5{
+    margin-top: 8px;
+}
+
+.bo-box .ingr{
+    font-size: 12px;
+    /* margin-top: 8px;
+    margin-bottom: 8px; */
+    margin: 8px auto;
+}
+
+.bo-box .price{
+    color: #e41040;
+    font-weight: bold;
+}
+/* BEST OFFERS SECTION END */
+
+/* ORDER SECTION */
+.order-sec{
+    text-align: center;
+    min-height: 500px;
+    background: url(../pizza-pic/order-section.jpg);
+    background-position: top center; /*за да се центрира автоматично, но картинката да започва от горния край, а не от центъра*/
+    background-size: cover;
+    padding: 45px;
+}
+
+.order-h-small { /*може и без .order-sec,защото името е специфично и най-вероятно няма да се срещне другаде в сайта*/
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.order-sec .order-h-big {
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+    font-size: 40px;
+}
+
+#order-form *{ /*всички елементи с id #order-form*/
+    display: block;
+    margin: 10px auto;
+}
+
+#order-form input, #order-form textarea{
+    border: 4px solid #e41040;
+    width: 100%;
+    min-height: 35px; /*иначе textarea ще стане с височината на другите*/
+}
+/* ORDER SECTION END */
+
+/* CONTACTS SECTION */
+.contacts-sec{
+    background-color: #e41040;
+    color: white;
+    text-align: center;
+    padding : 10px;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 1px solid white;
+}
+.contacts-sec .h-bold-cont{
+    font-weight: 900;
+}
+/* CONTACTS SECTION END */
+
+/* FOOTER SECTION */
+.footer-sec{
+    text-align: center;
+    background-color: #e41040;
+    padding: 15px;
+    
+}
+
+.footer-sec i{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    /* padding: 7px; */
+    margin-right: 20px;
+
+}
+/* FOOTER SECTION END */

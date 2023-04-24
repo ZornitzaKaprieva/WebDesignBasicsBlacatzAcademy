@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Comic Neue;
+    font-weight: 400;   
+}
+
+.clear-fix{
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 80%;
+}
+
+.main-bg{
+    background-image: url(../images/4.jpg);
+}
+
+.main-btn{
+    background: transparent;
+    border: 1px solid white;
+    padding: 8px 24px;
+    font-size: 12px;
+    color: white;
+}
+
+.main-btn:hover{
+    background-color: white;
+    color:purple;
+    cursor: pointer;
+}
+
+.secondary-btn{
+    background: transparent;
+    border: 1.5px solid #48ca95;
+    padding: 8px 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #48ca95;
+}
+
+.secondary-btn:hover{
+    background-color: #48ca95;
+    color:white;
+    cursor: pointer;
+}
+
+.so-btn{
+    background: #48ca95;
+    border: unset;
+    color: white;
+    padding: 8px 24px;
+    margin-top: 5px;
+}
+
+.so-btn:hover{
+    background: white;
+    color: #48ca95;
+    cursor: pointer;
+}
+
+/* MENU */
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul{
+    width: 300px;
+    margin: 0 0 0 auto;
+    padding: 15px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-right: 15px;
+
+}
+/* MENU END */
+
+/* HEADER */
+.header-container{
+    /* height: 400px; това не е нужно, ако сложим clear-fix след хедъра*/
+    width: 75%;
+    margin: 0 auto;
+    padding: 80px 0;
+    color: white;
+}
+
+.h-left, .h-right{
+    width: 50%;
+    float: left;
+}
+
+.h-left h1{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 18px 0;
+}
+
+.h-left p{
+    padding-bottom: 15px;
+}
+/* HEADER END */
+
+/* INFO */
+.info-container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.info-container .box{
+    border: 1px solid #48ca95;
+    width: 32%;
+    float:left;
+    padding: 16px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.info-container .box i{
+    font-size: 60px;
+    color: #48ca95;
+}
+
+.info-container .box h3{
+    margin: 12px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-container .box p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.info-container .box:nth-child(2){
+    margin: 0 2%;
+}
+/* INFO END */
+
+/* OUR PRODUCTS */
+.our-products{
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+
+.our-products h2{
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #48ca95;
+}
+
+.our-products-container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.op-box{
+    width: 30%;
+    float: left;
+    padding: 20px;
+
+}
+
+.op-box:nth-child(2){
+    margin: 0 5%;
+}
+
+.op-title{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.op-btn-container{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+/* OUR PRODUCTS END */
+
+/* SPECIAL OFFER */
+.special-offer{
+    padding: 50px 0;
+}
+
+.so-container{
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    padding: 50px 0;;
+
+}
+.so-left, .so-right{
+    width: 50%;
+    float: left;
+
+}
+
+.so-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.so-container h3{
+    font-size: 80px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+/* SPECIAL OFFER END */
+
+/* TESTIMONIALS */
+.testimonials{
+    padding: 50px 0;
+}
+
+.testimonials h2:first-child{
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #48ca95;
+}
+
+.t-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.t-container i{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.t-container h2{
+    margin: 5px 0;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+/* TESTIMONIALS END */
+
+/* CONTACTS */
+.contact-us{
+    padding: 50px 0;
+    
+}
+
+.contact-us h2{
+    width: 180px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 auto;
+    border-bottom: 1px solid #48ca95;
+    color: white;
+}
+
+.cu-container{
+    width: 40%;
+    border: 1px solid white;
+    margin: 20px auto 0 auto;
+    padding: 15px;  
+}
+
+.cu-container input,
+.cu-container textarea{
+    background: unset;
+    width: 100%;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.cu-container input::placeholder,
+.cu-container textarea::placeholder{
+    color: white;
+}
+
+.cu-container input:focus,
+.cu-container textarea:focus{
+    outline: none;
+}
+
+.cu-container textarea{
+    height: 100px;
+}
+
+.cu-container div:last-child{ /* последният див */
+    text-align: center;
+}
+
+.cu-container .so-btn{
+    border-radius: 20px;
+}
+/* CONTACTS END */
+
+/* FOOTER */
+.footer{
+    background-color: #252527;
+    padding: 50px 0 50px 0;
+    color: white;
+    /* margin-top: 30px; */
+}
+
+.f-container{
+    width: 70%;
+    margin: 0 auto;
+}
+/* FOOTER END*/
+
+/* F-BOX */
+.f-box{
+    width: 30%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.f-box h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.f-box:nth-child(2){
+    margin: 0 5%
+}
+
+.footer input{
+    border:unset;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: unset;
+    width: 100%;
+}
+
+.footer button{
+    border-radius: 5px;
+}
+/* F-BOX END*/
+
+.copyright{
+    border-top: 1px solid white;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 30px;
+}
