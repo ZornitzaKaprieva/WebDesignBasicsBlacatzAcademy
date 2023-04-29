@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+    color: rgb(77, 75, 75);
+    /* background: rgb(242, 242, 242); */
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;              
+}
+
+.sec-col{
+    color: black;
+}
+
+/* LEFT MENU */
+.left-menu{
+    min-width: 300px;
+    background-color:white;
+    min-height: 100%;
+    position: fixed;
+    box-shadow: 1px 0 0 0 rgb(191, 191, 191, 0.5);
+}
+
+
+.logo i{
+    color: teal;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.left-menu ul{
+    list-style-type: none; 
+}
+
+.left-menu ul li{
+    height: 40px;
+    width: 93%;
+    padding-bottom: 40px;    
+    padding-top: 15px;            
+}
+
+
+.left-menu ul li a{
+    text-decoration-line: none;
+    width: 100%;
+    display: block;
+    padding: 15px 1px 15px 5px;
+    font-size: 16px;
+}
+
+.left-menu ul li a:hover{   
+   background-color: rgb(32, 178, 170, 0.7);
+   opacity: 0.9;
+   vertical-align: bottom;
+   cursor: pointer;
+}
+
+.left-menu ul li a span:hover, .left-menu ul li a i:hover {
+    color: wheat !important; 
+    cursor: pointer;
+}
+
+.left-menu ul li a i{
+    width: 29px;
+    font-size: 18px;
+    color: teal;
+}
+
+.left-menu ul li h3{
+    padding-top: 5px;
+    padding-left: 30px;   
+    font-size: 22px;  
+    text-transform: capitalize; 
+    color: rgb(6, 76, 76);   
+}     
+
+.left-menu ul li span{
+   vertical-align: middle;
+}
+
+/* LEFT MENU END*/
+
+/* MAIN PAGE */
+.main-page{
+    /* background-color: red; */
+    /* width: 100%; */
+    min-height: 94%;
+    margin-left: 300px;
+}
+/* MAIN PAGE END*/
+
+/* TOP MENU */
+.top-menu{
+    background: lightseagreen;
+    height: 80px;
+}
+/* TOP MENU END*/
+
+/*TOP MENU LEFT*/
+
+.tm-left{
+    width: 50%;
+    float: left;
+}
+
+.search-box{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(255, 255, 255, 0.8);
+    margin-left: 50px;
+    margin-top:20px;
+    border-radius: 35px;
+    padding: 1px 15px;
+}
+
+.search-box i{
+    display: inline;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.search-box input {
+    background: unset;
+    border: unset;
+    font-size: 17px;
+    vertical-align: middle;
+    height: 38px;
+    width: 180px;
+}
+
+input:focus{
+    outline: none; /*махаме бордерите при клик на сърча*/
+}
+
+/*TOP MENU LEFT END*/
+
+/*TOP MENU RIGHT*/
+.tm-right{
+    width: 50%;
+    float: right;
+}
+
+.task-right{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.tm-right button{
+    border-radius: 35px;  
+    width: 60px;
+    height: 25px;
+    border: unset;
+    background-color: rgb(255, 255, 255, 0.8);
+    margin-right: 6px;
+    
+}
+
+.tm-right button:hover{
+    background-color: rgb(255, 255, 102, 0.8); 
+    cursor: pointer;     
+}
+
+.tm-right button a{
+    text-decoration-line: none; 
+    vertical-align: middle;
+}
+
+.tm-right button a:hover{
+    color: teal;
+
+}
+/*TOP MENU RIGHT END*/
+
+/* CONTENT */
+.clear-fix{
+    clear: both;
+}
+
+.content{
+    /* background-color:rgb(204, 153, 204, 0.2); */
+    width: 100%;
+    min-height: 100%;
+    padding-left: 40px; 
+}
+
+.content a{
+    text-decoration: none;
+    display: inline;
+}
+
+
+.content a h1{
+ margin-left: 25px;
+ padding-top: 20px;
+ font-size: 30px;
+}
+
+.content a span{
+ font-size: 20px;
+}
+
+.content a h1:hover, .content a span:hover{
+    color: lightseagreen;
+}
+
+.c-task{
+    background-color:rgb(0, 128, 128, 0.2);
+    width: 1094px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.c-task:hover{
+    background-color: rgb(255, 255, 102, 0.3);
+    color: lightseagreen;
+}
+
+.c-t1{         
+    margin-top: 110px;
+}
+
+.c-t3{          
+    
+}
+
+.c-pdf{
+    margin-bottom: 110px;
+}
+
+
+/*PROBLEM*/
+.problem{
+    width:60%;
+    min-height: 50px;
+    /* background-color: #cc99cc; */
+    border-radius: 35px;
+    /* margin: auto 15px; */
+    text-shadow: 0.1px 0px 0.1px teal;
+    box-shadow: 0px 0px 2px black;
+}
+
+.problem h2{
+    padding-top: 12px;
+    font-size: 20px;
+    text-align: center;
+    color:lightseagreen;
+ 
+}
+   .problem h2:hover{
+       color: rgb(255, 255, 102, 0.8);
+   }
+/*PROBLEM END*/
+
+/*SOLUTION*/
+.solution{
+    margin:20px 150px 20px 20px;
+}
+/*SOLUTION END*/
+
+/* CONTENT END */
+
+/* FOOTER */
+footer{
+    background:lightseagreen;
+    height: 45px;
+    color: white;
+    text-align: right;
+    font-size: small;
+}
+
+footer span{
+    color: wheat;
+    margin-right: 85px;
+    padding-top: 4px;
+    vertical-align: middle;
+}
+
+/* FOOTER END */

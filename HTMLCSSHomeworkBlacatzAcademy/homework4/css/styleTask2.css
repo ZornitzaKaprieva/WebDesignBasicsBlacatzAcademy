@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+body, html{
+    height: 100%;
+    box-sizing: border-box;
+    color: silver;
+    font-family: 'Comfortaa';
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+img, form, input{
+    border-radius: 15px;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+h3, h4{
+    font-family: 'Caveat';
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 60px;
+    color:white;
+}
+
+/* CONTAINER */
+.container{
+    width: 100%;
+    height: 100%;
+}
+/* CONTAINER END*/
+
+/* FIRST MAIN */
+.first-main{
+    min-height: 100%;
+    background-image: url(../images/Task2GuestHouse/forest.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+/* FIRST MAIN END */
+
+/* FIRST MAIN HEADER */
+.f-m-header{
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+}
+/* FIRST MAIN HEADER END */
+
+/* FIRST MAIN HEADER LEFT */
+.f-m-header-left{
+    width: 2%;
+    float: left;
+}
+
+.f-m-header-left .logo img{
+    padding: 18px 50px;
+    height: 60px;
+}
+
+/* FIRST MAIN HEADER LEFT END */
+
+/* FIRST MAIN HEADER RIGHT */
+.f-m-header-right{
+    width: 80%;
+    height: 80px;
+    float: right;
+}
+
+.f-m-h-r-menu{
+   list-style-type: none;
+   display: inline-block;
+   padding-left: 550px;
+   text-transform: uppercase;
+}
+
+.f-m-h-r-menu li{
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+.f-m-h-r-menu a{
+    font-weight: 300;
+}
+
+.f-m-h-r-menu a:hover{
+    opacity: 70%;
+}
+
+.f-m-h-r-menu li:hover .dropdown{
+    display: block; /* +.dropdown*/
+ }
+
+/* FIRST MAIN HEADER RIGHT END*/
+
+/* DROPDOWN*/
+.dropdown{
+    position: absolute;
+    text-align: left;
+    background-color:  rgb(84, 84, 40, 0.3);
+    padding: 10px 15px 30px 15px;
+    display: none; /*+.f-m-h-r-menu li:hover .dropdown*/
+}
+
+.dropdown li{
+    display: block;
+    padding-top: 20px;   
+    margin: 0 auto;
+}
+
+.dropdown li a{
+    font-size: 14px;
+}
+/* DROPDOWN END*/
+/* FIRST MAIN HEADER RIGHT END */
+
+/* FIRST MAIN CENTER */
+.f-m-center{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.f-m-center h1{
+    text-transform: uppercase;
+    color: rgb(231, 219, 219);
+    font-size: 50px;
+    letter-spacing: 8px;
+    margin-bottom:20px;
+}
+
+.f-m-center h2{
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.f-m-center button{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+}
+
+.f-m-center button a{
+    color: rgb(231, 219, 219);
+}
+
+.f-m-center button:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+/* FIRST MAIN CENTER END */
+
+/* ABOUT US */
+.about-us{
+    height: 710px;
+    padding-bottom: 20px;
+    /* background: url(../images/Task2GuestHouse/glitter-texture-opacity50.jpg);
+    background-position: center center; */
+    color: black;
+}
+/* ABOUT US END */
+
+
+/* ABOUT US TEXT */
+.about-us-text{
+    text-align: center;
+    padding: 45px;
+}
+
+.about-us h3{
+    font-size: 50px;
+    color: black;
+}
+
+.about-us p{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 50px;
+}
+/* ABOUT US TEXT END */
+
+/*ABOUT US LEFT*/
+.about-left{
+    margin-top: 20px;
+    width: 35%;
+    float: left;
+}
+
+.about-left h4{
+    font-size: 35px;
+    text-align: left;
+    text-transform: initial;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.about-left ul{
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+}
+
+.about-left ul li{
+    padding-top: 15px;
+}
+/* ABOUT US LEFT END */
+
+/* ABOUT US RIGHT */
+.about-right{
+    margin-top: 15px;
+    width: 60%;
+    height: 400px;
+    float: right;
+    margin-right:48px;
+} 
+
+.about-right img{
+    width: 950px;
+    box-shadow: 0px 0px 1px 1px rgb(102, 102, 51);
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-top: 30px;
+}
+/* ABOUT US RIGHT END */
+
+/*ROOMS*/
+.rooms{
+    height: 1100px;
+    background-image: url(../images/Task2GuestHouse/glitter-texture-background.jpg);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.rooms-left{
+    float:left;
+    width: 35%;
+}
+
+.rooms-right{
+    float:right;
+    width: 65%;
+    padding-top: 30px;
+}
+/*ROOMS END */
+
+
+/* ROOMS LEFT */
+.rooms .rooms-heading h3{
+    text-align: left;
+    padding: 0px 50px;
+}
+
+#single-room{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+#single-room img{
+    width: 100%;
+    box-shadow: 0px 0px 2px 2px rgb(84, 84, 40);
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+/* ROOMS LEFT END*/
+
+/* ROOMS RIGHT*/
+#double-room{
+    float: right;
+}
+
+#double-room{
+    width: 65%;
+    margin-top: 30px;
+}
+
+#double-room img{
+    width:950px;
+    box-shadow: 0px 0px 1px 1px #333333;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-left:37.5px
+}
+
+/* ROOMS TEXT */
+.rooms-right .rooms-text{
+    padding: 40px 60px 0px 60px;
+}
+
+.rooms .rooms-text p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 50px;
+    padding-top: 50px;
+ 
+}
+/*ROOMS TEXT END */
+/* ROOMS RIGHT END*/
+
+/* ROOMS BOX */
+/* ROOMS BOX IMAGES */
+.rooms-b-images{
+    margin-right: 10px;
+}
+/* ROOMS BOX IMAGES END */
+
+/* ROOMS BOX INFO */
+.rooms-b-info{
+    padding-top: 15px;
+    padding-left: 28px;
+}
+
+.rooms-b-info:nth-child(2){
+    padding-top: 40px;
+}
+
+.rooms-box h3{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+    float: left;
+}
+
+.div-price{
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+.rooms-b-info .description .desc-text p{
+    font-size: 13px;
+    text-align: justify;
+    padding: 15px 20px 15px 20px;
+    line-height: 18px;
+}
+/* ROOMS BOX INFO END */
+
+/* ROOMS BOX END */
+
+/*SPA*/
+.spa{
+    height: 100%;
+    background: url(../images/Task2GuestHouse/spa/spa50percent.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-top:-120px;
+}
+/*SPA END */
+
+/* SPA TEXT */
+.spa-text{
+    padding: 25px 45px;
+}
+
+.spa h3{
+    text-align: left;
+    padding-top: 30px;
+}
+
+.spa p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 50px;
+}
+/* SPA TEXT END */
+
+/* SPA IMAGES */
+.spa-img{
+    width: 90%;
+    margin-left:7%
+}
+
+.spa-img img{
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 1px 1px rgb(84, 84, 40);
+}
+/* SPA IMAGES END */
+
+/* CONTACT US */
+.contact-us{
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/Task2GuestHouse/glitter-texture-background.jpg);
+    background-position: top center;
+    padding-top: 120px;
+}
+/* CONTACT US END */
+
+/* CONTACT US TEXT */
+.contact-us .contact-us-text{
+     text-align: center;
+     padding: 30px 103px;
+}
+
+.contact-us .contact-us-text h3{
+    font-size: 50px;
+    
+}
+/* CONTACT US TEXT END */
+
+/* CONTACT US CONTACTS */
+.contact-us .contacts{
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: 105px;
+    float: left;
+    width: 40%;
+}
+
+.contact-us .contacts p{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.contact-us .map{
+    background-image: url(../images/Task2GuestHouse/google-map.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 167px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+/* CONTACT US CONTACTS END */
+
+/* CONTACT US FORM */
+.contact-us form{
+    min-height: 250px;
+    width: 500px;
+    margin-right: 174px;
+    background-color: transparent;
+    box-shadow: 0px 0px 2px 2px rgb(84, 84, 40);
+    padding: 20px;
+    float: right;
+}
+
+.contact-us form h5{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.div-form input{
+    width: 96%;
+    height: 20px;
+    border: unset;
+    box-shadow: 0px 0px 2px 2px rgb(84, 84, 40);
+    padding: 7px 2%;
+    margin-bottom: 10px;
+    background: transparent;
+    color: white;
+}
+
+form input::placeholder{
+    background: transparent;
+    color: silver;
+    border: unset;
+}
+
+#msg{
+    height: 80px;
+}
+
+.contact-us .btn-send{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact-us button{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: unset;
+    box-shadow: 0px 0px 2px 2px rgb(84, 84, 40);
+}
+
+.contact-us button a{
+    color: silver;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-us button:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+/* CONTACT US FORM END */
+
+/* FOOTER */
+.footer{
+    height: 30px;
+    width: 100%;
+    background-image: url(../images/Task2GuestHouse/glitter-texture-background.jpg);
+    background-position: top center;
+    padding-top: 20px;
+    text-align: center;
+    margin-top:1px;
+}
+/* FOOTER END */

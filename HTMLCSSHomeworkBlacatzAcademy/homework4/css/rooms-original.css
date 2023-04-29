@@ -1,0 +1,136 @@
+/*ROOMS*/
+.rooms{
+    height: 450px;
+    background-color: rgb(102, 102, 51);
+    /* background: url(../images/Task2GuestHouse/forest.jpg);
+    background-position: center center;
+    background-size: cover; */
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    color: silver;
+}
+/*ROOMS END */
+
+
+/* ROOMS TEXT */
+.rooms-text{
+    text-align: left;
+    padding: 0px 45px;
+    font-weight: 100;
+}
+
+.rooms .rooms-text h3{
+    font-weight: 300;
+    font-size: 40px;
+    text-transform: uppercase;
+    /* color: rgb(231, 219, 219); */
+    color: white;
+    padding-left: 50px;
+    padding-top: 12px;
+    
+ 
+}
+
+.rooms .rooms-text p{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 50px;
+    /* color: silver; */
+    padding-top: 50px;
+ 
+}
+/*ROOMS TEXT END */
+
+/* ROOMS BOX */
+.rooms-box{
+    float: left;
+    width: 450px;
+    height: 300px;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 2px 2px rgb(84, 84, 40);
+    border-radius: 15px;
+    /* background-image: url(../images/Task2GuestHouse/forest-house-opacity10.jpg); */
+    /* background-position: center center;
+    background-size: cover; */
+    background-color: rgb(102, 102, 51);
+}
+
+.rooms-box:nth-child(2){
+    margin-left: 50px;
+}
+
+.rooms-box h3{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 15px;
+    color: white;
+    font-weight: 100;
+    text-align: right;
+}
+
+/* ROOMS BOX END */
+
+/* ROOMS BOX LEFT */
+.rooms-b-left{
+    float: left;
+    width: 50%;
+}
+
+.rooms-b-left img{
+    width: 100%;
+    padding: 10px 10px;
+
+}
+/* ROOMS BOX LEFT END */
+
+/* ROOMS BOX RIGHT */
+.rooms-b-right{
+    float: right;
+    width: 45%;
+}
+
+.rooms-b-right .description .desc-text p{
+    font-size: 11px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 10px;
+    line-height: 15px;
+}
+
+
+/* ROOMS BOX RIGHT END */
+
+.div-price{
+    float: left;
+}
+
+.div-price span{
+    padding-left: 10px;
+}
+
+.read-more{
+    float: right;
+    padding-right: 10px;
+}
+.read-more button{
+    width: 75px;
+    height: 23px;
+    /* background-color: transparent; */
+    background-color: rgb(88, 88, 44);
+    border: unset;
+    box-shadow: 0px 0px 0.5px 0.5px silver;
+}
+
+.read-more a{
+    font-size: 8px;
+    color: silver;
+    font-weight: 100;
+    vertical-align: middle;
+}
+
+/* ROOMS BOX END */

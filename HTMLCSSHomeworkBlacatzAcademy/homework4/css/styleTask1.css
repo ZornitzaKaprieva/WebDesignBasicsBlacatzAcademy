@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+
+body, html{
+    height: 100%;
+    box-sizing: border-box;
+    color: #58E970;
+    font-family: 'Prompt';
+    /* background-color: pink; */
+}
+
+*{
+    margin:0;
+    padding: 0;;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+/* CONTAINER */
+.container{
+    width: 100%;
+    height: 100%;
+}
+/* CONTAINER END*/
+
+/* FIRST MAIN */
+.first-main{
+    min-height: 100%;
+    background-image: url(../images/task1HomePage/beach-mountains40percent.jpg);
+    background-size: cover;
+    background-position: 1% 80%;
+}
+/* FIRST MAIN END */
+
+/* FIRST MAIN HEADER */
+.f-m-header{
+    width: 100%;
+    height: 80px;
+}
+/* FIRST MAIN HEADER END */
+
+/* FIRST MAIN HEADER LEFT */
+.f-m-header-left{
+    width: 2%;
+    float: left;
+}
+
+.f-m-header-left .logo{
+    padding: 18px 50px;
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.logo a{
+    color: #58E970;
+    font-weight: 700;
+}
+/* FIRST MAIN HEADER LEFT END */
+
+/* FIRST MAIN HEADER RIGHT */
+.f-m-header-right{
+    width: 80%;
+    height: 80px;
+    float: right;
+}
+
+.f-m-h-r-menu{
+   list-style-type: none;
+   display: inline;
+   padding-left: 850px;
+   text-transform: uppercase;
+}
+
+.f-m-h-r-menu li{
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 28px;
+}
+
+.f-m-h-r-menu a{
+    font-weight: 300;
+}
+
+.f-m-h-r-menu a:hover{
+    opacity: 70%;
+}
+/* FIRST MAIN HEADER RIGHT END */
+
+/* FIRST MAIN CENTER */
+.f-m-center{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.f-m-center h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+.f-m-center h2{
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}
+
+.f-m-center button{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #58E970;
+}
+
+.f-m-center button a{
+    color: #58E970;
+}
+
+.f-m-center button:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+/* FIRST MAIN CENTER END */
+
+/* WHY US */
+.why-us{
+    min-height: 50%;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+/* WHY US END */
+
+/* WHY US TEXT */
+.why-us-text{
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.why-us h3, .why-us p{
+    text-transform: uppercase;
+}
+
+.why-us h3{
+    color: black;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.why-us p{
+    font-size: 15px;
+    font-weight: 100;
+}
+/* WHY US TEXT END */
+
+/* WHY US MENU */
+.why-us-menu{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.why-us-menu .why-us-box{
+    width: 350px;
+    height: 200px;
+    box-shadow: 0px 0px 2px 2px silver;
+    float: left;
+    margin-right: 25px;
+    margin-left:25px;
+    
+}
+
+.why-us-menu .why-us-box a{
+    color:black;
+    font-weight: 300;  
+}
+
+.why-us-menu i{
+    color:black;
+    font-size: 60px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.why-us-menu p{
+    font-size: 20px;
+}
+
+
+/* WHY US MENU END */
+
+/* WHY US BUTTON */
+.why-us-button{
+    text-align: center;
+    padding-top: 45px;
+    /* padding-bottom: 40px; */
+}
+
+.why-us button{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #58E970;
+}
+
+.why-usbutton:hover{
+        opacity: 70%;
+        cursor: pointer;
+}
+
+.why-us button a{
+    color: #58E970;
+}
+/* WHY US BUTTON END */
+
+/* SECOND MAIN */
+.second-main{
+    min-height: 100%;
+    background-image: url(../images/task1HomePage/boat-mountains50percent.jpg);
+    background-size: cover;
+    background-position: 1% 80%;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.second-main h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding-top:17%;
+    margin-bottom: 20px;
+}
+
+.second-main p{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.second-main button{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #58E970;
+}
+
+.second-main button a{
+    color: #58E970;
+}
+
+.second-main button:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+/* SECOND MAIN END */
+
+/* CONTACT US */
+.contact-us{
+    min-height: 50%;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 60px;
+}
+/* CONTACT US END */
+
+/* CONTACT US TEXT */
+.contact-us .contact-us-text{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.contact-us .contact-us-text h3{
+    color: black;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.contact-us .contact-us-text p{
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+}
+/* CONTACT US TEXT END */
+
+/* CONTACT US FORM */
+.contact-us form{
+    min-height: 250px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom:40px;
+    background-color: silver;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.div-form input{
+    width: 98%;
+    height: 20px;
+    border-radius: 15px;
+    border: 2px solid #58E970;
+    padding: 7px 15px;
+    margin-bottom: 10px;
+    background: transparent;
+    color: white;
+}
+
+form input::placeholder{
+    background: transparent;
+    color: white;
+    border: unset;
+}
+
+#msg{
+    height: 60px;
+}
+
+.contact-us .btn-send{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact-us button{
+    width: 150px;
+    height: 45px;
+    background-color: #58E970;
+    border: none;
+    border-radius: 30px;
+}
+
+.contact-us button a{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-us button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+/* CONTACT US FORM END */
+
+/* SUBSCRIBE */
+.subscribe{
+    min-height: 50%;
+    background-color: black;
+    padding-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.sub-text h2:nth-child(1){
+    letter-spacing: 5px;
+}
+
+.sub-text h2:nth-child(2){
+    color: white;
+    letter-spacing: 2px;
+}
+
+.sub-input input{
+    width: 600px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 7px 15px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background: white;
+    color: black;
+}
+
+
+.subscribe .sub-btn{
+    text-align: center;
+}
+
+.subscribe button{
+    width: 150px;
+    height: 35px;
+    background-color: #58E970;
+    border: none;
+    border-radius: 30px;
+}
+
+.subscribe button a{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subscribe button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+/* SUBSCRIBE END */

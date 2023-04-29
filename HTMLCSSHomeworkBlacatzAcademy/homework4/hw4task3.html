@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <meta charset="UTF-8">
+        <title>Task3</title>
+        <link rel="stylesheet" href="./css/styleTask3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    </head>
+    <body>
+        <!--LEFT MENU-->
+        <div class="left-menu">
+            <div class="task-menu">
+                <ul class="menu-t">
+                    <li class="menu-title">
+                        <span >
+                            <h3 class="m-t-title">Табло</h3>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="./index.html">
+                            <i class="fa-solid fa-house"></i>
+                            <span>Табло</span>
+                        </a>
+                    </li>
+                    <li class="menu-title">
+                        <span>
+                            <h3 class="m-t-title">Табло елемент</h3>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="./hw4Task1.html" target="_blank">
+                            <i class="fa-sharp fa-solid fa-house-laptop"></i>
+                            <span>Табло елемент 1</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./hw4Task2.html" target="_blank">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>Табло елемент 2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./hw4Task3.html" target="_blank">
+                            <i class="fa-solid fa-toolbox"></i>
+                            <span>Табло елемент 3</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--LEFT MENU END-->
+
+        <!-- MAIN PAGE -->
+        <div class="main-page">
+         <!-- TOP MENU -->
+            <div class="top-menu">
+                <!-- TOP MENU LEFT-->
+                <div class="clear-fix"></div>
+                <div class="tm-left">
+                    <div class="logo">
+                        <a href="./index.html">Поставете лого тук</a>
+                    </div>
+                    <div class="search-box">
+                        <input type="text" placeholder="Въведи текст">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <!-- TOP MENU LEFT END-->
+
+                <!-- TOP MENU RIGHT-->
+                <div class="tm-right">
+                    <!-- <div class="clear-fix"></div> -->
+                    <div class="admin-right">
+                            <a href="./hw4task3.html">
+                                <img src="./images/task3AdminPanel/profile.png" alt="">
+                                <span>Администратор</span>
+                            </a>    
+                    </div>
+                </div>
+                <!-- TOP MENU RIGHT END-->
+
+            </div>
+            <!-- TOP MENU END -->
+
+            <!--CONTENT-->
+            <div class="clear-fix"></div>
+            <div class="content">
+                <!-- STATISTICS TOP -->
+                <div class="statistics-top">
+                    <!-- STAT BOX 1ST ROW -->
+                    <!-- STAT BOX -->
+                    <a href="" class="stat-box">
+                        <div class="stat-box-left-up">
+                            <span>Брой поръчки</span>
+                        </div>
+                        <div class="stat-box-right-up">
+                            <span>5250</span>
+                        </div>
+                    </a>
+                    <!-- STAT BOX END-->
+
+                    <!-- STAT BOX -->
+                    <a href="" class="stat-box">
+                        <div class="stat-box-left-up">
+                            <span>Клиенти</span>
+                        </div>
+                        <div class="stat-box-right-up">
+                            <span>1250</span>
+                        </div>
+                    </a>
+                    <!-- STAT BOX END-->
+
+                    <!-- STAT BOX 1ST ROW END-->
+
+                    <!-- STAT BOX 2ND ROW -->
+                       <!-- STAT BOX -->
+                    <a href="" class="stat-box">
+                        <div class="stat-box-left-up">
+                            <span>Фактури</span>
+                        </div>
+                        <div class="stat-box-right-up">
+                            <span>5250</span>
+                        </div>
+                    </a>
+                    <!-- STAT BOX END-->
+                     <!-- STAT BOX -->
+                     <a href="" class="stat-box">
+                        <div class="stat-box-left-down">
+                            <span>Успешни поръчки</span>
+                        </div>
+                        <div class="stat-box-right-down">
+                            <span id="purchase">4200</span>
+                        </div>
+                    </a>
+                    <!-- STAT BOX END-->
+
+                    <!-- STAT BOX -->
+                    <a href="" class="stat-box">
+                        <div class="stat-box-left-down">
+                            <span>Продукти</span>
+                        </div>
+                        <div class="stat-box-right-down">
+                            <span id="products">3М</span>
+                        </div>
+                    </a>
+                    <!-- STAT BOX END-->
+
+                    <!-- STAT BOX -->
+                    <a href="" class="stat-box">
+                        <div class="stat-box-left-down">
+                            <span>Последователи</span>
+                        </div>
+                        <div class="stat-box-right-down">
+                            <span id="followers">45М</span>
+                        </div>
+                    </a>
+                    <!-- STAT BOX END-->
+                    <!-- STAT BOX 2ND ROW END--> 
+                </div>
+                <!-- STATISTICS TOP END -->
+                <div class="clear-fix"></div>
+
+                <!-- ACTIVE USERS -->
+                <div class="active-users">
+                    <!-- ACTIVE USERS HEADER -->
+                    <div class="a-u-header">
+                        <h3>Активни потребители</h3>
+                    </div>
+                    <!-- ACTIVE USERS TABLE -->
+                    <div class="a-u-table">
+                        <table>
+                            <tr class="table-heading">
+                                <td>ИД</td>
+                                <td>Име</td>
+                                <td>Град</td>
+                                <td>Статус</td>
+                                <td>Действие</td>
+                            </tr>
+                            <tr>
+                                <td>1113212</td>
+                                <td>
+                                    <div class="a-u-name-left">
+                                        <img src="./images/task3AdminPanel/profile.png" alt="Upload an image here!">
+                                    </div>
+                                    <div class="a-u-name-right">
+                                        <h5>Петър Тодоров</h5>
+                                        <p>Уеб разработчик</p>
+                                    </div>
+                                </td>
+                                <td>София</td>
+                                <td>
+                                        <span class="pending">В изчакване</span>
+                                </td>
+                                <td>
+                                    <a href="">
+                                        <button>Детайли</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1113213</td>
+                                <td>
+                                    <div class="a-u-name-left">
+                                        <img src="./images/task3AdminPanel/profile.png" alt="Upload an image here!">
+                                    </div>
+                                    <div class="a-u-name-right">
+                                        <h5>Георги Георгиев</h5>
+                                        <p>C# програмист</p>
+                                    </div>
+                                </td>
+                                <td>Пловдив</td>
+                                <td>
+                                    <span class="completed">Завършен</span>
+                                </td>
+                                <td>
+                                    <a href="">
+                                        <button>Детайли</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1113214</td>
+                                <td>
+                                    <div class="a-u-name-left">
+                                        <img src="./images/task3AdminPanel/profile.png" alt="Upload an image here!">
+                                    </div>
+                                    <div class="a-u-name-right">
+                                        <h5>Тодор Тодоров</h5>
+                                        <p>Android разработчик</p>
+                                    </div>
+                                </td>
+                                <td>Варна</td>
+                                <td>
+                                    <span class="in-progress">В прогрес</span>
+                                </td>
+                                <td>
+                                    <a href="">
+                                        <button>Детайли</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1113215</td>
+                                <td>
+                                    <div class="a-u-name-left">
+                                        <img src="./images/task3AdminPanel/profile.png" alt="Upload an image here!">
+                                    </div>
+                                    <div class="a-u-name-right">
+                                        <h5>Костадин Петров</h5>
+                                        <p>Дизайнер</p>
+                                    </div>
+                                </td>
+                                <td>Бургас</td>
+                                <td>
+                                    <span class="stopped">Спрян</span>
+                                </td>
+                                <td>
+                                    <a href="">
+                                        <button>Детайли</button>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- ACTIVE USERS TABLE END -->
+                    </div>
+                </div>
+                <!-- ACTIVE USERS END -->
+
+                <div class="clear-fix"></div>
+
+                <!-- STATISTICS BOTTOM -->
+                <div class="statistics-bottom">
+                         <!-- STAT BOX BOTTOM -->
+                         <a href="" class="stat-box-bottom">
+                            <div class="stat-box-bottom-content">
+                                <div class="stat-box-bottom-left">
+                                    <span id="percent1">25%</span>
+                                </div>
+                                <div class="stat-box-bottom-right">
+                                    <div class="full-scale">
+                                        <div class="filled-scale" id="f-s-25"></div>
+                                    </div>
+                                </div>
+                                <div class="clear-fix">
+                                    <div class="stat-box-bottom-decsription">
+                                        <span>Натовареност</span>
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <!-- STAT BOX BOTTOM END-->
+
+                         <!-- STAT BOX BOTTOM -->
+                         <a href="" class="stat-box-bottom">
+                            <div class="stat-box-bottom-content">
+                                <div class="stat-box-bottom-left">
+                                    <span id="percent2">50%</span>
+                                </div>
+                                <div class="stat-box-bottom-right">
+                                    <div class="full-scale">
+                                        <div class="filled-scale" id="f-s-50"></div>
+                                    </div>
+                                </div>
+                                <div class="clear-fix">
+                                    <div class="stat-box-bottom-decsription">
+                                        <span>Работа</span>
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <!-- STAT BOX BOTTOM END-->
+
+                         <!-- STAT BOX BOTTOM -->
+                         <a href="" class="stat-box-bottom">
+                            <div class="stat-box-bottom-content">
+                                <div class="stat-box-bottom-left">
+                                    <span id="percent3">30%</span>
+                                </div>
+                                <div class="stat-box-bottom-right">
+                                    <div class="full-scale">
+                                        <div class="filled-scale" id="f-s-30-1"></div>
+                                    </div>
+                                </div>
+                                <div class="clear-fix">
+                                    <div class="stat-box-bottom-decsription">
+                                        <span>Инвестиция</span>
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <!-- STAT BOX BOTTOM END-->
+
+                        
+                         <!-- STAT BOX BOTTOM -->
+                        <a href="" class="stat-box-bottom">
+                            <div class="stat-box-bottom-content">
+                                <div class="stat-box-bottom-left">
+                                    <span id="percent4">30%</span>
+                                </div>
+                                <div class="stat-box-bottom-right">
+                                    <div class="clear-fix"></div>
+                                    <div class="full-scale">
+                                        <div class="filled-scale" id="f-s-30-2"></div>
+                                    </div>    
+                                </div>
+                                <div class="clear-fix">
+                                    <div class="stat-box-bottom-decsription">
+                                        <span>Цел</span>
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <!-- STAT BOX BOTTOM END-->
+                </div>
+                <!-- STATISTICS BOTTOM END -->
+            </div>
+            <!-- CONTENT END -->
+        </div>
+        <!-- MAIN PAGE END-->
+        <div class="clear-fix"></div>
+    </body>
+    <!-- FOOTER -->
+    
+    <footer>
+        <div class="footer-info">
+            <div class="f-info-left">
+                <a href="./index.html" target="_blank">Начало</a>
+                <a href="./hw4task1.html" target="_blank">Задача 1</a>
+            </div>
+            <div class="f-info-right">
+                <a href="./hw4task2.html" target="_blank">Задача 2</a>
+                <a href="./hw4task3.html">Задача 3</a>
+            </div>
+        </div>
+
+    </footer>
+    <!-- FOOTER END -->
+
+</html>
